@@ -34,7 +34,6 @@ class ProductController extends Controller
 
     public function store()
     {
-        return request();
     	$message = [];
     	$attributes = $this->validateProduct();
 
